@@ -30,3 +30,26 @@ To leverage sequential academic data to forecast student performance, enabling e
 - Trained and validated LSTM model with high accuracy on sequential input data.
 - Visualized training performance and prediction trends.
 - Demonstrated potential for proactive academic support systems.
+
+## Results
+- The LSTM model achieved a low **Root Mean Squared Error (RMSE)** and high correlation between predicted and actual student performance.
+- The model was able to learn temporal dependencies in student exam patterns.
+
+| Metric       | Value       |
+|--------------|-------------|
+| MSE          | 12.45       |
+| RMSE         | 3.52        |
+| MAE          | 2.85        |
+
+### Prediction vs Actual
+The chart below shows how closely the model’s predictions align with the actual final scores.
+
+![Prediction vs Actual](observations/observ_1.png)
+
+### Loss Curve
+Shows how the model minimized error over training epochs.
+
+![Loss Curve](observations/observ_2.png)
+
+### Further visuals and observations to be added soon!
+
